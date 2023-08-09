@@ -1,0 +1,12 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Outro serviço",
+    "description": "Outra descrição",
+    "price": 1010.00,
+    "image": "https://s2-ge.glbimg.com/noIm3K5pZ_XJpEjhNQVgoxXi59g=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/k/W/ey3W2jRAmAY9m4dAgfZg/charmander.jpg"
+}
+# ###
+# GET http://localhost:3000/api/services
+# Content-Type: apllication/application/json
